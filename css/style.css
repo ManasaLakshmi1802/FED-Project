@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	font-family: 'Exo', sans-serif;
+}
+
+h1{
+	font-family: 'Arvo', serif;
+}
+
+h2,h5{
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+p{
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+hr{
+	border:dotted grey 9px;
+	border-bottom: none;
+	width: 4%;
+	margin: 100px auto;
+}
+
+.aboutme{
+	margin-top: 50px;
+}
+
+.bannerBgImage{
+	height:100vh;
+	background: url("https://img.freepik.com/premium-photo/minimal-dark-workspace-with-black-blank-pages-notebook-with-stationery-table-top-view_67155-18286.jpg");
+	background-size:cover;
+	position: relative;
+}
+
+.bannerText{
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white; 
+}
+
+.bannerTitle{
+	font-size: 4rem;
+}
+
+.bannerDesc{
+	font-size: 2rem;
+}
+
+.card{
+	cursor: pointer;
+}
+
+.card:hover{
+	background-color: grey;
+	border: 2px solid black;
+}
+
+.BIcon{
+	width:100%;
+	text-align: center;
+	font-size: 40px;
+}
+
+.card-img-top{
+	height: 50vh;
+}
+
+.contact-container{
+	margin-bottom: 20px;
+
+}
+
+.bottom-container{
+	margin-top: 20px;
+	background-color: grey;
+	padding: 50px 0 40px;
+}
+
+.contact-link{
+	margin:10px 20px;
+	color: black;
+}
+
+.contact-link:hover{
+	color: white;
+}
+
+.card-body{
+	height: 50%;
+}
